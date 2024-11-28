@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "guMhTnfv8rLYy7VbsU2WNcvex7RaLrBhK3QEql7S+bo=",
+  "Source": "AlertAPI",
+  "BasePath": "_content/AlertAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

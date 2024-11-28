@@ -1,0 +1,128 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "AlertAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Alert/GetAlerts": {
+      "get": {
+        "tags": [
+          "Alert"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Alert/DeleteAlert": {
+      "delete": {
+        "tags": [
+          "Alert"
+        ],
+        "parameters": [
+          {
+            "name": "alertID",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Alert/UpdateAlertDescription": {
+      "put": {
+        "tags": [
+          "Alert"
+        ],
+        "parameters": [
+          {
+            "name": "alertID",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "description",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Alert/AddNewAlert": {
+      "post": {
+        "tags": [
+          "Alert"
+        ],
+        "parameters": [
+          {
+            "name": "title",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "description",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "severity",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ipString",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Alert/PercentOfInternalIPs": {
+      "get": {
+        "tags": [
+          "Alert"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

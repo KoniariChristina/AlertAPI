@@ -1,0 +1,90 @@
+[
+  {
+    "ContainingType": "AlertAPI.Controllers.AlertController",
+    "Method": "AddNewAlert",
+    "RelativePath": "api/Alert/AddNewAlert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "severity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ipString",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlertAPI.Controllers.AlertController",
+    "Method": "DeleteAlert",
+    "RelativePath": "api/Alert/DeleteAlert",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "alertID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlertAPI.Controllers.AlertController",
+    "Method": "GetAlerts",
+    "RelativePath": "api/Alert/GetAlerts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlertAPI.Controllers.AlertController",
+    "Method": "PercentOfInternalIPs",
+    "RelativePath": "api/Alert/PercentOfInternalIPs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlertAPI.Controllers.AlertController",
+    "Method": "UpdateAlertDescription",
+    "RelativePath": "api/Alert/UpdateAlertDescription",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "alertID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

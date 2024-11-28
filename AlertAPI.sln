@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertAPI", "AlertAPI\AlertAPI.csproj", "{399D1129-78F1-4F3F-A092-1A91B4226E6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertAPI.Test", "AlertAPI.Test\AlertAPI.Test.csproj", "{651A5E85-BC79-4C87-AB09-1E65C3F4DBD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{399D1129-78F1-4F3F-A092-1A91B4226E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{399D1129-78F1-4F3F-A092-1A91B4226E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{399D1129-78F1-4F3F-A092-1A91B4226E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{399D1129-78F1-4F3F-A092-1A91B4226E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{651A5E85-BC79-4C87-AB09-1E65C3F4DBD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651A5E85-BC79-4C87-AB09-1E65C3F4DBD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651A5E85-BC79-4C87-AB09-1E65C3F4DBD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651A5E85-BC79-4C87-AB09-1E65C3F4DBD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
